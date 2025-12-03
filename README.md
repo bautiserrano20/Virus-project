@@ -1,0 +1,1 @@
+# Virus-project :El grupo esta formado por: Bautista Serrano; Matias Leandro Lucena; Abigail Lescano; Agustin Nahuel Lopez Chipoloni; Exequiel Carrasco. Nuestro proyecto se basa a la descripcion de la banda de rock argentina, VIRUS. La cual nos llamo la atencion para hacer la consigna del blog. El blog se basa en la historia, dramas, conflictos, etc.
