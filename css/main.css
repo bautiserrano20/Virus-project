@@ -1,14 +1,13 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-
 
 .form-control {
   background-color: #1b0b0d;
-  color: #FBECC8;
-  border: 1px solid #FBECC8;
-  font-family: 'alagard', sans-serif;
+  color: #fbecc8;
+  border: 1px solid #fbecc8;
+  font-family: "alagard", sans-serif;
 }
 
 .form-control::placeholder {
@@ -17,21 +16,24 @@
 
 .form-control:focus {
   background-color: #1b0b0d;
-  color: #FBECC8;
-  border-color: #FBECC8;
+  color: #fbecc8;
+  border-color: #fbecc8;
   box-shadow: none;
 }
 .card {
-  background-color: #17080A;
+  background-color: #17080a;
   border: none;
 }
 
 .card-title {
-  font-family: 'alagard', sans-serif;
-  color: #FBECC8;
+  font-family: "alagard", sans-serif;
+  color: #fbecc8;
 }
 
 .card-body ul li {
+  font-family: "alagard", sans-serif;
+}
 
-  font-family: 'alagard',sans-serif;
+.carousel-item img {
+  max-height: 85vh;
 }
