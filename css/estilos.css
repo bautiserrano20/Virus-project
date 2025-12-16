@@ -1,12 +1,15 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body{
-  background-color: #4C0015;
+html, body {
+  height: 100%;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main{
+  background-color: #4C0015;
+}
 .logo-nav img {
   width: 100px;
 }

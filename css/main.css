@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main {
+  flex: 1;
+  background-color: #4C0015;
+}
+
+
+
+.form-control {
+  background-color: #1b0b0d;
+  color: #FBECC8;
+  border: 1px solid #FBECC8;
+  font-family: 'alagard', sans-serif;
+}
+
+.form-control::placeholder {
+  color: #c9b89a;
+}
+
+.form-control:focus {
+  background-color: #1b0b0d;
+  color: #FBECC8;
+  border-color: #FBECC8;
+  box-shadow: none;
+}
+.card {
+  background-color: #17080A;
+  border: none;
+}
+
+.card-title {
+  font-family: 'alagard', sans-serif;
+  color: #FBECC8;
+}
+
+.card-body ul li {
+
+  font-family: 'alagard',sans-serif;
+}
