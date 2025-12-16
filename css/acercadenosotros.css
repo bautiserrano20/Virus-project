@@ -1,0 +1,79 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fuentes */
+@font-face {
+  font-family: "Pixelout Personal Use Only Reg";
+  src: url("./fonts/Pixelout.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "determination";
+  src: url("../fonts/determination.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "alagard";
+  src: url("../fonts/alagard.ttf") format("truetype");
+}
+
+/* Layout general */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #4C0015;
+}
+
+main {
+  flex: 1;
+  background-color: #4C0015;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Cards */
+.card {
+  border: none;
+  cursor: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  z-index: 10;
+}
+
+.card .card-body {
+  background-color: #17080a;
+}
+
+.card h5 {
+  font-family: "alagard", sans-serif;
+  color: aliceblue;
+}
+
+.card p {
+  font-family: "determination", sans-serif;
+  color: aliceblue;
+}
+
+/* Perfil */
+.tarjeta-perfil {
+  margin: 0;
+  padding: 0;
+}
+
+/* Footer */
+footer {
+  background-color: #17080a;
+}
+
+footer .container {
+  width: 100%;
+  height: auto;
+}
