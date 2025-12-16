@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -7,37 +8,36 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
-main{
-  background-color: #4C0015;
+main {
+  background-color: #4c0015;
 }
 .logo-nav img {
   width: 100px;
 }
 
 .bg-nav {
-
-  background-color: #17080A;
+  background-color: #17080a;
 }
 
 @font-face {
-  font-family: 'Pixelout Personal Use Only Reg';
-  src: url('../fonts/Pixelout.ttf') format('truetype');
+  font-family: "Pixelout Personal Use Only Reg";
+  src: url("../fonts/Pixelout.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Alagard';
-  src: url('../fonts/alagard.ttf') format('truetype');
+  font-family: "Alagard";
+  src: url("../fonts/alagard.ttf") format("truetype");
 }
 
 .titulo {
-  font-family: 'Pixelout Personal Use Only Reg', sans-serif;
-  color: #FBECC8;
+  font-family: "Pixelout Personal Use Only Reg", sans-serif;
+  color: #fbecc8;
   font-size: 40px;
   transition: transform 0.2s ease;
 }
 
 .titulo:hover {
-  transform: scale(1.20);
+  transform: scale(1.2);
 }
 
 .nav-link {
@@ -52,23 +52,21 @@ main{
 }
 
 .menu-medio a {
-  font-family: 'Alagard', sans-serif;
+  font-family: "Alagard", sans-serif;
   font-size: 17px;
   color: #f1ded0 !important;
 }
 
 .menu-derecha a {
-  font-family: 'Alagard', sans-serif;
+  font-family: "Alagard", sans-serif;
   font-size: 17px;
   color: #f1ded0 !important;
-
 }
 
 .menu-medio .nav-link:hover {
   color: #8d7a6e !important;
   text-decoration: none;
 }
-
 
 .menu-derecha .nav-link:hover {
   color: #8d7a6e !important;
@@ -81,7 +79,7 @@ main{
 
 @media (max-width: 992px) {
   .navbar-collapse .nav-link {
-    border: 2PX solid white;
+    border: 2px solid white;
     border-radius: 15px;
     margin: 10;
 
@@ -93,18 +91,13 @@ main{
   .nav-link {
     padding-left: 20px;
   }
-
 }
 
 .suscripcion {
-  font-family: 'Determination', sans-serif;
+  font-family: "Determination", sans-serif;
 
   color: #f1ded0 !important;
-
 }
-
-
-
 
 .img-disco img {
   width: 300px;
@@ -125,9 +118,6 @@ main{
   color: white;
 }
 
-
-
-
 .msj-bienvenida {
   color: #f1ded0;
 }
@@ -145,19 +135,14 @@ main{
   }
 }
 
-
-
-
 .logo-virus {
   animation: girar 7s linear infinite;
-
 }
 
 .logo-virus:hover {
   animation-play-state: paused;
   /* pausa el giro */
 }
-
 
 @keyframes girar {
   0% {
@@ -168,19 +153,14 @@ main{
     transform: rotate(360deg);
   }
 
- 
-
   100% {
     transform: rotate(360deg);
   }
-
-  
 }
 
-
 @font-face {
-  font-family: 'Determination';
-  src: url('../fonts/determination.ttf') format('truetype');
+  font-family: "Determination";
+  src: url("../fonts/determination.ttf") format("truetype");
 }
 
 .label-user,
@@ -190,13 +170,10 @@ main{
 .suscripcion,
 .msj-bienvenida,
 .btn-inicar-sesion {
-  font-family: 'Determination', sans-serif;
+  font-family: "Determination", sans-serif;
 
   color: #f1ded0 !important;
-
 }
-
-
 
 .iconos-redes {
   gap: 40px;
@@ -206,10 +183,10 @@ main{
 .a-google a,
 .a-facebook a {
   border: 2px solid #f1ded0;
-  padding: 0px 15px 0px 10px ;
+  padding: 0px 15px 0px 10px;
   border-radius: 8px;
   color: #f1ded0;
-  font-family: 'Determination', sans-serif;
+  font-family: "Determination", sans-serif;
   transition: 0.3s ease;
 }
 
@@ -225,8 +202,31 @@ main{
   cursor: pointer;
 }
 
-
 .a-google p,
 .a-facebook p {
   margin: 0;
+}
+
+.titless {
+  font-family: Determination;
+
+  text-decoration: underline;
+  color: #f1ded0;
+}
+
+.imgsgeneral img {
+  background: #17080a;
+  padding: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.752);
+  box-shadow: 7px 7px 0px #cf033d;
+  object-fit: cover;
+  height: 350px;
+}
+
+.imgsgeneral {
+  transition: 0.5s ease;
+}
+
+.imgsgeneral:hover {
+  transform: scale(0.9);
 }
