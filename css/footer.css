@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+  font-family: 'Pixelout Personal Use Only Reg';
+  src: url('../fonts/Pixelout.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'determination';
+  src: url('../fonts/determination.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'agalard';
+  src: url('../fonts/alagard.ttf') format('truetype');
+}
+
+.footer {
+  background: #17080a;
+  color: #f1f1f1;
+  padding: 40px 20px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+  justify-content: center;
+}
+
+
+.footer-col h4 {
+font-family: 'agalard', sans-serif;
+  margin-bottom: 15px;
+  color: #c2a6aa;
+}
+
+.footer-logo {
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+
+.footer-col ul {
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+
+}
+
+.footer-col ul li {
+  margin-bottom: 8px;
+}
+
+.footer-col a {
+  font-family: 'determination',sans-serif;
+  text-decoration: none;
+  color: #ddd;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.footer-col img {
+  width: 50px;
+}
+
+.footer-col a:hover {
+  color: #c2a6aa;
+}
+
+
+@media (min-width: 768px) {
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
