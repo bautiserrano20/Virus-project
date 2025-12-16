@@ -4,21 +4,23 @@
   box-sizing: border-box;
 }
 body{
-  background-color: #4C0015;
-}
-.logo-nav img{
-    width: 100px;
+  background-color: #2b0d0d;
 }
 
-.bg-nav{
-
-    background-color: #17080A;
+.logo-nav img {
+  width: 100px;
 }
-    
+
+.bg-nav {
+
+  background-color: #17080A;
+}
+
 @font-face {
   font-family: 'Pixelout Personal Use Only Reg';
   src: url('../fonts/Pixelout.ttf') format('truetype');
 }
+
 @font-face {
   font-family: 'Alagard';
   src: url('../fonts/alagard.ttf') format('truetype');
@@ -28,62 +30,72 @@ body{
   font-family: 'Pixelout Personal Use Only Reg', sans-serif;
   color: #FBECC8;
   font-size: 40px;
-  transition: transform 0.2s ease; 
+  transition: transform 0.2s ease;
 }
-.titulo:hover{
+
+.titulo:hover {
   transform: scale(1.20);
 }
 
-.nav-link{
-  border: 2px solid white;
+.nav-link {
+  border: 2px solid #ceb09e;
   border-radius: 15px;
   margin: 5px;
-  transition: transform 0.2s ease; 
+  transition: transform 0.2s ease;
 }
 
 .nav-link:hover {
-  transform: scale(1.15); 
-}
-.menu-medio   a{
-  font-family: 'Alagard', sans-serif;
-  font-size: 17px;
-  color: white;
+  transform: scale(1.15);
 }
 
-.menu-derecha a{
+.menu-medio a {
   font-family: 'Alagard', sans-serif;
   font-size: 17px;
-  color: white;
+  color: #f1ded0 !important;
+}
+
+.menu-derecha a {
+  font-family: 'Alagard', sans-serif;
+  font-size: 17px;
+  color: #f1ded0 !important;
 
 }
+
 .menu-medio .nav-link:hover {
-    color: white;        
-    text-decoration: none;  
+  color: #8d7a6e !important;
+  text-decoration: none;
 }
 
 
 .menu-derecha .nav-link:hover {
-    color: white;        
-    text-decoration: none;  
+  color: #8d7a6e !important;
+  text-decoration: none;
 }
 
-.boton-desplegable{
-background-color: white;
+.boton-desplegable {
+  background-color: white;
 }
 
 @media (max-width: 992px) {
   .navbar-collapse .nav-link {
-    border: 2PX solid white;           
-    border-radius: 15px;      
+    border: 2PX solid white;
+    border-radius: 15px;
     margin: 10;
-        
-    width: 250px;        
-    transform: none;        
-    transition: none;       
+
+    width: 250px;
+    transform: none;
+    transition: none;
   }
-  .nav-link{
+
+  .nav-link {
     padding-left: 20px;
   }
+
 }
 
-  
+.suscripcion {
+  font-family: 'Determination', sans-serif;
+
+  color: #f1ded0 !important;
+
+}
