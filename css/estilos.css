@@ -1,5 +1,238 @@
-* {
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main {
+  background-color: #4c0015;
+}
+.logo-nav img {
+  width: 100px;
+}
+
+.bg-nav {
+  background-color: #17080a;
+}
+
+@font-face {
+  font-family: "Pixelout Personal Use Only Reg";
+  src: url("../fonts/Pixelout.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Alagard";
+  src: url("../fonts/alagard.ttf") format("truetype");
+}
+
+.titulo {
+  font-family: "Pixelout Personal Use Only Reg", sans-serif;
+  color: #fbecc8;
+  font-size: 40px;
+  transition: transform 0.2s ease;
+}
+
+.titulo:hover {
+  transform: scale(1.2);
+}
+
+.nav-link {
+  border: 2px solid #ceb09e;
+  border-radius: 15px;
+  margin: 5px;
+  transition: transform 0.2s ease;
+}
+
+.nav-link:hover {
+  transform: scale(1.15);
+}
+
+.menu-medio a {
+  font-family: "Alagard", sans-serif;
+  font-size: 17px;
+  color: #f1ded0 !important;
+}
+
+.menu-derecha a {
+  font-family: "Alagard", sans-serif;
+  font-size: 17px;
+  color: #f1ded0 !important;
+}
+
+.menu-medio .nav-link:hover {
+  color: #8d7a6e !important;
+  text-decoration: none;
+}
+
+.menu-derecha .nav-link:hover {
+  color: #8d7a6e !important;
+  text-decoration: none;
+}
+
+.boton-desplegable {
+  background-color: white;
+}
+
+@media (max-width: 992px) {
+  .navbar-collapse .nav-link {
+    border: 2px solid white;
+    border-radius: 15px;
+    margin: 10;
+
+    width: 250px;
+    transform: none;
+    transition: none;
+  }
+
+  .nav-link {
+    padding-left: 20px;
+  }
+}
+
+.suscripcion {
+  font-family: "Determination", sans-serif;
+
+  color: #f1ded0 !important;
+}
+
+.img-disco img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.img-user {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.label-user {
+  color: white;
+}
+
+.label-contraseña {
+  color: white;
+}
+
+.msj-bienvenida {
+  color: #f1ded0;
+}
+
+@media (max-width: 992px) {
+  .contenedor-login {
+    flex-direction: column;
+    gap: 100px;
+  }
+
+  .img-disco img {
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+.logo-virus {
+  animation: girar 7s linear infinite;
+}
+
+.logo-virus:hover {
+  animation-play-state: paused;
+  /* pausa el giro */
+}
+
+@keyframes girar {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  60% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@font-face {
+  font-family: "Determination";
+  src: url("../fonts/determination.ttf") format("truetype");
+}
+
+.label-user,
+.label-contraseña,
+.restablecer-contraseña,
+.label-continua-con,
+.suscripcion,
+.msj-bienvenida,
+.btn-inicar-sesion,
+.btn-dark {
+  font-family: "Determination", sans-serif;
+
+  color: #f1ded0 !important;
+}
+
+.btn-dark,
+.btn-inicar-sesion {
+  background-color: #17080a;
+}
+
+.iconos-redes {
+  gap: 40px;
+  padding-top: 20px;
+}
+
+.a-google a,
+.a-facebook a {
+  border: 2px solid #f1ded0;
+  padding: 0px 15px 0px 10px;
+  border-radius: 8px;
+  color: #f1ded0;
+  font-family: "Determination", sans-serif;
+  transition: 0.3s ease;
+}
+
+.a-google a:hover,
+.a-facebook a:hover {
+  background-color: #f1ded0;
+  color: #31000b;
+}
+
+.iconos-redes img {
+  width: 45px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.a-google p,
+.a-facebook p {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+}
+
+.titless {
+  font-family: Determination;
+
+  text-decoration: underline;
+  color: #f1ded0;
+}
+
+.imgsgeneral img {
+  background: #17080a;
+  padding: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.752);
+  box-shadow: 7px 7px 0px #cf033d;
+  object-fit: cover;
+  height: 350px;
+}
+
+.imgsgeneral {
+  transition: 0.5s ease;
+}
+
+.imgsgeneral:hover {
+  transform: scale(0.9);
 }

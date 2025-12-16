@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.form-control {
+  background-color: #1b0b0d;
+  color: #fbecc8;
+  border: 1px solid #fbecc8;
+  font-family: "alagard", sans-serif;
+}
+
+.form-control::placeholder {
+  color: #c9b89a;
+}
+
+.form-control:focus {
+  background-color: #1b0b0d;
+  color: #fbecc8;
+  border-color: #fbecc8;
+  box-shadow: none;
+}
+.card {
+  background-color: #17080a;
+  border: none;
+}
+
+.list-group-item {
+  background-color: #ceb09e;
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: #8d7a6e;
+}
+
+.card-title {
+  font-family: "alagard", sans-serif;
+  color: #fbecc8;
+}
+
+.card-body ul li {
+  font-family: "alagard", sans-serif;
+}
+
+.carousel-item img {
+  max-height: 85vh;
+}
+
+/* ----------------------------------------------------- */
+
+.main-1 {
+  max-width: 1200px;
+  margin: 40px auto;
+  background-color: black;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+article {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #501c1c;
+  border-radius: 8px;
+}
+
+.derecha {
+  flex-direction: row-reverse;
+}
+
+article img {
+  width: 250px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.imagen-main {
+  height: 200px;
+  object-fit: cover;
+  width: 600px;
+}
+
+.contenido h4 {
+  color: #f1ded0;
+  font-family: "Determination";
+}
+
+.contenido p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+  color: #f1ded0;
+  font-family: "Alagard";
+}
+
+.contenido a {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #ceb09e;
+  color: #501c1c;
+  text-decoration: none;
+  border-radius: 4px;
+  font-family: "Determination";
+}
+
+.contenido a:hover {
+  background-color: #8d7a6e;
+}
+
+.paginacion {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.paginacion a {
+  background-color: #ceb09e;
+  color: #501c1c;
+  padding: 8px 16px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: "Alagard";
+}
+
+.paginacion a:hover {
+  background-color: #8d7a6e;
+}
+
+@media (max-width: 768px) {
+  article,
+  .derecha {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  article img {
+    width: 100%;
+  }
+}
