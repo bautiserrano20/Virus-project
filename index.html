@@ -143,38 +143,131 @@
     </div>
 
     <main>
-      <div
-        id="sliderPrincipal"
-        class="carousel slide mb-4"
-        data-bs-ride="carousel"
-      >
+      <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img
-              src="./img/slide-1.jpg"
-              class="d-block w-100 h-25"
-              alt="Slide 1"
-            />
+            <img src="./img/slide-1.jpg" class="d-block w-100" alt="slide-1" />
           </div>
           <div class="carousel-item">
-            <img
-              src="./img/slide-2.jpg"
-              class="d-block w-100 h-25"
-              alt="Slide 2"
-            />
+            <img src="./img/slide-2.jpg" class="d-block w-100" alt="slide-2" />
           </div>
           <div class="carousel-item">
-            <img
-              src="./img/slide-3.jpg"
-              class="d-block w-100 h-25"
-              alt="Slide 3"
-            />
+            <img src="./img/slide-3.jpg" class="d-block w-100" alt="slide-3" />
           </div>
         </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleRide"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleRide"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
+
       <section class="container">
         <div class="row">
-          <aside class="col-lg-4 col-md-4 col-12 ms-auto">
+          <div class="col-12 col-md-8 col-lg-9 main-1">
+            <article class="my-3">
+              <img
+                src="./img/img1.jpeg"
+                alt="Imagen artículo 1"
+                class="imagen-main"
+              />
+              <div class="contenido mx-3">
+                <h4>INICIO DE LA BANDA</h4>
+                <p>
+                  A comienzos de los años 80, mientras la Argentina aún vivía
+                  bajo la dictadura militar y el rock local transitaba un clima
+                  denso, introspectivo y muchas veces solemne, un grupo de
+                  amigos de La Plata decidió hacer algo completamente distinto.
+                  Ahí nace Virus, una banda que no solo rompió con los moldes
+                  musicales de su época, sino que también redefinió la estética
+                  y la energía del pop-rock nacional.
+                </p>
+                <a href="#">VER MÁS</a>
+              </div>
+            </article>
+
+            <article class="derecha my-3">
+              <img
+                src="./img/img2.jpg"
+                alt="Imagen artículo 2"
+                class="imagen-main"
+              />
+              <div class="contenido mx-3">
+                <h4>DISCOS EXITOSOS</h4>
+                <p>
+                  A través de Wadu Wadu, Agujero Interior, Locura y Superficies
+                  de placer, Virus construyó una trayectoria que acompaña y
+                  define la evolución del pop argentino en los años 80. Desde
+                  una propuesta inicial moderna y provocadora, la banda fue
+                  refinando su sonido hasta alcanzar una estética más elegante y
+                  sofisticada. Estos cuatro discos sintetizan su espíritu
+                  innovador y consolidan a Virus como una de las bandas más
+                  influyentes de la música nacional.
+                </p>
+                <a href="#">VER MÁS</a>
+              </div>
+            </article>
+
+            <article class="my-3">
+              <img
+                src="./img/img3.png"
+                alt="Imagen artículo 3"
+                class="imagen-main"
+              />
+              <div class="contenido mx-3">
+                <h4>ULTIMOS CONCIERTOS</h4>
+                <p>
+                  Entre 1987 y 1988, Virus atravesó uno de los momentos más
+                  intensos y contradictorios de su historia. Por un lado, la
+                  banda estaba en un gran punto creativo y artístico; por el
+                  otro, se acercaba el final de la etapa más emblemática del
+                  grupo, con Federico Moura como voz y figura central.
+                </p>
+                <a href="#">VER MÁS</a>
+              </div>
+            </article>
+
+            <article class="derecha my-3">
+              <img
+                src="./img/img4.webp"
+                alt="Imagen artículo 4"
+                class="imagen-main"
+              />
+              <div class="contenido mx-3">
+                <h4>EL FALLECIMIENTO DE FEDERICO MOURA</h4>
+                <p>
+                  La muerte de Federico marcó un antes y un después. No solo
+                  dejó un vacío emocional enorme, sino que también funcionó como
+                  una especie de llamado interno para los otros hermanos,
+                  especialmente para Julio, Marcelo y el Federico cantante, que
+                  hasta ese momento no tenía un rol central en el proyecto. Ese
+                  dolor se transformó con el tiempo en una fuerza creativa: una
+                  necesidad de dar sentido a la ausencia a través del arte.
+                </p>
+                <a href="#">VER MÁS</a>
+              </div>
+            </article>
+
+            <nav class="paginacion">
+              <a href="#">⋘</a>
+              <a href="#">⋙</a>
+            </nav>
+          </div>
+
+          <aside class="col-lg-3 col-md-4 col-12 ms-auto mt-5">
             <div class="card mb-4">
               <div class="card-body">
                 <h5 class="card-title">Buscar</h5>
@@ -204,7 +297,7 @@
               <div class="card-body text-center">
                 <h5 class="card-title">Publicidad</h5>
                 <img
-                  src="./img/coca-publi.gif"
+                  src="./img/gif-cheto.gif"
                   class="img-fluid"
                   alt="Publicidad"
                 />

@@ -169,10 +169,16 @@ main {
 .label-continua-con,
 .suscripcion,
 .msj-bienvenida,
-.btn-inicar-sesion {
+.btn-inicar-sesion,
+.btn-dark {
   font-family: "Determination", sans-serif;
 
   color: #f1ded0 !important;
+}
+
+.btn-dark,
+.btn-inicar-sesion {
+  background-color: #17080a;
 }
 
 .iconos-redes {
