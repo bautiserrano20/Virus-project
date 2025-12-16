@@ -1,6 +1,11 @@
+
 *{
     margin: 0;
     padding: 0;
+}
+main {
+  flex: 1;
+  background-color: #4C0015;
 }
 
 @font-face {
