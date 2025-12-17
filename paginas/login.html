@@ -23,300 +23,162 @@
     <link rel="stylesheet" href="../css/footer.css" />
     <link rel="stylesheet" href="../css/estilos.css" />
   </head>
+
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary py-0 sticky-top">
-      <div class="container-fluid logo-nav bg-nav">
-        <a
-          class="navbar-brand d-flex align-items-center m-3"
-          href="../index.html"
-        >
-          <img src="../img/8-bit turntable.gif" alt="" />
-          <h1 class="titulo ms-3 mt-4">VIRUS</h1>
-        </a>
-        <button
-          class="navbar-toggler boton-desplegable"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 menu-medio">
-            <li class="nav-item">
-              <a
-                class="nav-link text-white link-light"
-                aria-current="page"
-                href="./contacto.html"
-                >Contacto</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link text-white link-light"
-                href="./acercadenosotros.html"
-                >Sobre Nosotros</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link text-white link-light"
-                href="./galeria-imagenes.html"
-                >Galeria de Imagenes
-              </a>
-            </li>
-          </ul>
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 menu-derecha">
-            <li class="nav-item">
-              <a
-                class="nav-link text-white link-light"
-                href="#"
-                data-bs-toggle="modal"
-                data-bs-target="#staticBackdrop"
-              >
-                Suscribirse
-              </a>
-            </li>
+    <div class="container-fluid logo-nav bg-nav">
+      <a class="navbar-brand d-flex align-items-center m-3 " href="/index.html">
+        <img src="/img/8-bit turntable.gif" alt="">
+        <h1 class="titulo ms-3 mt-4">VIRUS</h1>
+      </a>
+      <button class="navbar-toggler boton-desplegable" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-            <li class="nav-item">
-              <a class="nav-link text-white link-light" href="./login.html"
-                >Iniciar Sesion
-              </a>
-            </li>
-          </ul>
-        </div>
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 menu-medio">
+          <li class="nav-item">
+            <a class=" nav-link text-white link-light" aria-current="page" href="#">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white link-light" href="#">Sobre Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white link-light" href="#">Galeria de Imagenes </a>
+          </li>
+
+
+        </ul>
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 menu-derecha">
+          <li class="nav-item">
+            <a class="nav-link text-white link-light" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              Suscribirse
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white link-light " href="/paginas/login.html">Iniciar Sesion </a>
+          </li>
+
+
+        </ul>
+
       </div>
-    </nav>
-    <!-- Modal -->
-    <div
-      class="modal fade suscripcion"
-      id="staticBackdrop"
-      data-bs-backdrop="static"
-      data-bs-keyboard="false"
-      tabindex="-1"
-      aria-labelledby="staticBackdropLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="staticBackdropLabel">
-              Suscripcion
-            </h1>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <div class="mb-3">
-              <form action="" method="get">
-                <label for="exampleInputEmail1" class="form-label">Email</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="exampleInputEmail1"
-                  aria-describedby="emailHelp"
-                  placeholder="virus@gmail.com "
-                  pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
-                />
-              </form>
+    </div>
+  </nav>
+  <!-- Modal -->
+  <div class="modal fade suscripcion" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog ">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Suscripcion </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3 ">
+            <form action="" method="get">
+              <label for="exampleInputEmail1" class="form-label">Email</label>
+              <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="virus@gmail.com " pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}">
 
-              <p class="small mt-4">
-                Te enviaremos notificaciones sobre actualizaciones del blog
+              <p class="small mt-4">Te enviaremos notificaciones sobre actualizaciones del blog
               </p>
-            </div>
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-dark w-100">Enviar</button>
-          </div>
+        </div>
+        <div class="modal-footer">
+
+          <button type="button" class="btn btn-dark w-100">Enviar</button>
         </div>
       </div>
     </div>
+  </div>
+    <div class="container   ">
+    <div class="row justify-content-center align-items-center contenedor-login ">
+      <div class="col-12 col-md-5 col-lg-7 ms-lg-auto mt-3 ">
+        <form>
 
-    <main>
-      <div class="container my-5">
-        <div
-          class="row justify-content-center align-items-center contenedor-login"
-        >
-          <div class="col-12 col-md-5 col-lg-7 ms-lg-auto mt-3">
-            <form>
-              <div class="msj-bienvenida mb-4">
-                <h1>Bienvenido</h1>
-                <h5>Inicia Sesion para continuar</h5>
-              </div>
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label label-user"
-                  >Correo o Usuario</label
-                >
-                <input
-                  type="email"
-                  class="form-control"
-                  id="exampleInputEmail1"
-                  aria-describedby="emailHelp"
-                  pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
-                />
-              </div>
-              <div class="mb-4">
-                <label
-                  for="exampleInputPassword1"
-                  class="form-label label-contraseña"
-                  >Contraseña</label
-                >
-                <input
-                  type="password"
-                  class="form-control"
-                  id="exampleInputPassword1"
-                  maxlength="20"
-                  minlength="8"
-                />
-              </div>
-              <div class="text-start restablecer-contraseña">
-                <!-- Button trigger modal -->
-                <button
-                  type="button"
-                  class="btn"
-                  data-bs-toggle="modal"
-                  data-bs-target="#modal-recuperar-contraseña"
-                >
-                  <a href="#">¿Olvidaste tu Contraseña?</a>
-                </button>
-              </div>
+          <div class="msj-bienvenida mb-4">
+            <H1>Bienvenido </H1>
+            <h5>Inicia Sesion para continuar </h5>
+          </div>
+          <div class="mb-3 ">
+            <label for="exampleInputEmail1" class="form-label label-user">Correo o Usuario</label>
+            <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp"
+              pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}">
 
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="modal-recuperar-contraseña"
-                data-bs-backdrop="static"
-                data-bs-keyboard="false"
-                tabindex="-1"
-                aria-labelledby="staticBackdropLabel"
-                aria-hidden="true"
-              >
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="staticBackdropLabel">
-                        Recuperar Contraseña
-                      </h1>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-bs-dismiss="modal"
-                        aria-label="Close"
-                      ></button>
-                    </div>
-                    <div class="modal-body">
-                      <div class="mb-3">
-                        <form action="" method="get">
-                          <label for="exampleInputEmail1" class="form-label"
-                            >Email</label
-                          >
-                          <input
-                            type="email"
-                            class="form-control"
-                            id="exampleInputEmail1"
-                            aria-describedby="emailHelp"
-                            placeholder="virus@gmail.com"
-                            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
-                          />
-                        </form>
-                        <p class="small mt-4">
-                          te enviaremos un correo para restablecer tu contraseña
+          </div>
+          <div class="mb-4">
+            <label for="exampleInputPassword1" class="form-label label-contraseña">Contraseña</label>
+            <input type="password" class="form-control  " id="exampleInputPassword1" maxlength="20" minlength="8">
+          </div>
+          <div class="text-start restablecer-contraseña ">
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#modal-recuperar-contraseña">
+              <a href="#">¿Olvidaste tu Contraseña?</a>
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="modal-recuperar-contraseña" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Recuperar Contraseña</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="mb-3 ">
+                      <form action="" method="get">
+                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                        <input type="email" class="form-control  " id="exampleInputEmail1" aria-describedby="emailHelp"
+                          placeholder="virus@gmail.com"  pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}">
+                        <p class="small mt-4">te enviaremos un correo para restablecer tu contraseña
                         </p>
-                      </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="modal-footer">
-                <button type="button" class="btn btn-dark w-100">
-                  Enviar Email
-                </button>
-              </div>
-
-              <button
-                type="submit"
-                class="btn btn-dark mt-4 w-100 btn-inicar-sesion"
-              >
-                Iniciar Sesion
-              </button>
-
-              <div class="my-4">
-                <h5 class="text-white text-center label-continua-con">
-                  O continua con
-                </h5>
-                <section
-                  class="d-flex justify-content-center iconos-redes align-items-center"
-                >
-                  <div class="a-google">
-                    <a
-                      href="#"
-                      class="text-decoration-none d-flex align-items-center"
-                    >
-                      <img src="/img/icons-google.png" alt="" />
-                      <p class="m-0">Google</p>
-                    </a>
-                  </div>
-                  <div class="a-facebook">
-                    <a
-                      href="#"
-                      class="text-decoration-none d-flex align-items-center"
-                    >
-                      <img src="/img/icons-facebook.png" alt="" />
-                      <p class="m-0">Facebook</p>
-                    </a>
-                  </div>
-                </section>
-              </div>
-            </form>
-          </div>
-          <div
-            class="col-12 col-md-5 col-lg-4 ms-lg-auto d-flex justify-content-center img-disco"
-          >
-            <img class="logo-virus" src="/img/virus-cd.png" alt="" />
-          </div>
-        </div>
+        </form>
       </div>
-    </main>
 
-    <footer class="footer">
-      <div class="footer-container">
-        <div class="footer-col-logo">
-          <img
-            src="../img/8-bit turntable.gif"
-            alt="Logo Virus"
-            class="footer-logo"
-          />
-        </div>
+      <div class="modal-footer">
 
-        <div class="footer-col">
-          <h4>Información</h4>
-          <ul>
-            <li><a href="#">Términos y condiciones</a></li>
-            <li><a href="#">Política de privacidad</a></li>
-            <li><a href="#">Accesibilidad</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Seguinos</h4>
-          <ul class="footer-redes">
-            <li>
-              <a href="#"><img src="../img/pngegg.png" alt="" /></a>
-            </li>
-            <li>
-              <a href="#"><img src="../img/pngegg (2).png" alt="" /></a>
-            </li>
-          </ul>
-        </div>
+        <button type="button" class="btn btn-dark w-100">Enviar Email</button>
       </div>
-    </footer>
+    </div>
+  </div>
+  </div>
+
+  </div>
+  <button type="submit" class="btn btn-dark   mt-4  w-100 btn-inicar-sesion">Iniciar Sesion</button>
+
+  <div class="mt-4">
+    <H5 class="text-white text-center label-continua-con ">O continua con </H5>
+    <section class="d-flex justify-content-center iconos-redes align-items-center ">
+      <div class="a-google">
+        <a href="#" class="text-decoration-none d-flex align-items-center ">
+          <img src="/img/icons-google.png" alt="">
+          <p class="m-0">Google</p>
+        </a>
+      </div>
+      <div class="a-facebook">
+        <a href="#" class="text-decoration-none d-flex align-items-center ">
+          <img src="/img/icons-facebook.png" alt="">
+          <p class="m-0">Facebook</p>
+        </a>
+      </div>
+    </section>
+
+  </div>
+
+
+  </div>
+  <div class="col-12 col-md-5 col-lg-4 ms-lg-auto d-flex justify-content-center img-disco ">
+    <img class="logo-virus" src="/img/virus-cd.png" alt="">
+  </div>
+  </div>
+  </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
@@ -325,3 +187,4 @@
     ></script>
   </body>
 </html>
+
