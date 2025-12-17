@@ -1,24 +1,23 @@
-
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 main {
   flex: 1;
-  background-color: #4C0015;
+  background-color: #4c0015;
 }
 
 @font-face {
-  font-family: 'Pixelout Personal Use Only Reg';
-  src: url('../fonts/Pixelout.ttf') format('truetype');
+  font-family: "Pixelout Personal Use Only Reg";
+  src: url("../fonts/Pixelout.ttf") format("truetype");
 }
 @font-face {
-  font-family: 'determination';
-  src: url('../fonts/determination.ttf') format('truetype');
+  font-family: "determination";
+  src: url("../fonts/determination.ttf") format("truetype");
 }
 @font-face {
-  font-family: 'agalard';
-  src: url('../fonts/alagard.ttf') format('truetype');
+  font-family: "agalard";
+  src: url("../fonts/alagard.ttf") format("truetype");
 }
 
 .footer {
@@ -38,24 +37,21 @@ main {
   justify-content: center;
 }
 
-
 .footer-col h4 {
-font-family: 'agalard', sans-serif;
+  font-family: "agalard", sans-serif;
   margin-bottom: 15px;
   color: #c2a6aa;
 }
 
 .footer-logo {
-  width: 80px;
+  width: 100px;
   margin-bottom: 15px;
 }
-
 
 .footer-col ul {
   justify-content: center;
   list-style: none;
   padding: 0;
-
 }
 
 .footer-col ul li {
@@ -63,7 +59,7 @@ font-family: 'agalard', sans-serif;
 }
 
 .footer-col a {
-  font-family: 'determination',sans-serif;
+  font-family: "determination", sans-serif;
   text-decoration: none;
   color: #ddd;
   font-size: 14px;
@@ -77,7 +73,6 @@ font-family: 'agalard', sans-serif;
 .footer-col a:hover {
   color: #c2a6aa;
 }
-
 
 @media (min-width: 768px) {
   .footer-container {
