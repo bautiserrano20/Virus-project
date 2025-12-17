@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: #4c0015;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+
+@font-face {
+  font-family: "Alagard";
+  src: url("../fonts/alagard.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Determination";
+  src: url("../fonts/determination.ttf") format("truetype");
+}
+
+.titless {
+  font-family: Determination;
+
+  text-decoration: underline;
+  color: #f1ded0;
+}
+.titles2 {
+  font-family: Determination;
+  font-size: 16px;
+  color: #f1ded0;
+}
+
+.pdescrip2 {
+  font-family: Alagard;
+  font-size: 14px;
+}
+
+.b-g-general {
+  background-color: #17080a;
+  color: #f1ded0;
+  border-radius: 5px;
+}
+
+.img-fluid {
+  margin-top: 25px;
+  width: 300px;
+}
+
+.iframespotify iframe {
+  height: 360px;
+  width: 250px;
+}
+
+.forms form {
+  padding-top: 20px;
+}
+
+.btn-danger:hover {
+  color: rgb(232, 126, 126);
+  background-color: #962530;
+}
+
+.iconcoments {
+  background-color: rgba(149, 30, 30, 0.232);
+  border-radius: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.iconcoments ul {
+  margin-right: 40px;
+}
+.iconcoments li {
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+  margin-bottom: 10px;
+  background-color: #27262666;
+  height: 95px;
+  border-radius: 6px;
+}
+
+.iconcoments img {
+  width: 45px;
+  height: 45px;
+}
+
+.icontext p {
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+.icontext span {
+  font-size: 15px;
+}
+
+.icontext small {
+  font-size: 11px;
+}
+
+.ult2 img {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+  .iconcoments {
+    height: 620px;
+  }
+
+  .iconcoments ul {
+    padding-left: 0px;
+    margin-right: 0px;
+  }
+
+  .iconcoments li {
+    margin-right: 0px;
+    height: 102px;
+  }
+  .iconcoments .lilarge {
+    height: 120px;
+  }
+
+  .icontext p {
+    font-size: 10px;
+    margin: 0px;
+  }
+  .icontext span {
+    margin: 0px;
+    font-size: 8px;
+  }
+  .icontext small {
+    font-size: 6px;
+    margin: 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1440px) {
+  .forms {
+    height: 800px;
+  }
+  .iconcoments {
+    height: 685px;
+  }
+  .iconcoments ul {
+    padding-left: 0px;
+    margin-right: 0px;
+  }
+
+  .iconcoments li {
+    margin-right: 0px;
+    height: 120px;
+  }
+}
