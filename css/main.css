@@ -20,6 +20,11 @@
   border-color: #fbecc8;
   box-shadow: none;
 }
+
+.bg-white::placeholder {
+  color: #595c5f;
+  font-family: Determination;
+}
 .card {
   background-color: #17080a;
   border: none;
@@ -42,12 +47,13 @@
 .card-body ul li {
   font-family: "alagard", sans-serif;
 }
+.add img {
+  height: 350px;
+}
 
 .carousel-item img {
   max-height: 85vh;
 }
-
-/* ----------------------------------------------------- */
 
 .main-1 {
   max-width: 1200px;
