@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  background-color: #4c0015;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+
+@font-face {
+  font-family: "Alagard";
+  src: url("../fonts/alagard.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Determination";
+  src: url("../fonts/determination.ttf") format("truetype");
+}
+
+.titles {
+  font-family: Determination;
+  padding-left: 20px;
+}
+
+.pdescrip {
+  font-family: Alagard;
+  padding-left: 10px;
+}
+
+.b-g-general {
+  background-color: #17080a;
+  color: #f1ded0;
+  border-radius: 5px;
+}
+
+.imgdiario img {
+  border-radius: 3px;
+  height: 500px;
+  margin: 15px 0px;
+}
+.aside img {
+  margin-top: 15px;
+  width: 200px;
+  height: 615px;
+}
+.aside p {
+  font-family: Alagard;
+}
+
+.r-l {
+  margin-right: 10px;
+  height: 650px;
+}
+
+.red-letra {
+  color: #d40540;
+  text-decoration: underline;
+  width: 600px;
+  font-size: x-large;
+}
+
+.iframelopp iframe {
+  transition: transform 2s;
+}
+.iframelopp iframe:hover {
+  transform: scale(1.05);
+}
+
+.l-r {
+  margin-left: 10px;
+  height: 650px;
+}
+
+.btn-danger:hover {
+  color: rgb(232, 126, 126);
+  background-color: #962530;
+}
+
+.iconcoments {
+  background-color: rgba(149, 30, 30, 0.232);
+  border-radius: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.iconcoments li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  background-color: #27262666;
+  height: 95px;
+  margin-right: 40px;
+  border-radius: 6px;
+}
+
+.iconcoments img {
+  width: 45px;
+  height: 45px;
+}
+
+.icontext p {
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+.icontext span {
+  font-size: 14px;
+}
+
+.icontext small {
+  font-size: 9px;
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+  .titles {
+    font-size: 12px;
+    width: 100%;
+  }
+
+  .pdescrip {
+    font-size: 11px;
+  }
+
+  .b-g-general {
+    border: 2px solid rgb(147, 12, 12);
+  }
+
+  .imgdiario {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .imgdiario img {
+    height: 300px;
+  }
+  .descr {
+    width: 100%;
+  }
+
+  .aside {
+    display: none;
+  }
+
+  .r-l {
+    margin: 0px;
+    margin-bottom: 20px;
+    height: 430px;
+    flex-wrap: wrap;
+  }
+  .r-l iframe {
+    width: 100%;
+    height: 300px;
+    margin-top: 10px !important;
+  }
+
+  .l-r {
+    margin: 0px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+
+  .iconcoments ul {
+    padding-left: 0px;
+    margin-right: 0px;
+  }
+
+  .iconcoments li {
+    margin-right: 0px;
+  }
+
+  .icontext p {
+    font-size: 10px;
+    margin: 0px;
+  }
+  .icontext span {
+    margin: 0px;
+    font-size: 8px;
+  }
+  .icontext small {
+    font-size: 6px;
+    margin: 0px;
+  }
+}
+
+@media (min-width: 479px) and (max-width: 767px) {
+  .titles {
+    font-size: 17px;
+    width: 100%;
+  }
+
+  .pdescrip {
+    font-size: 14px;
+  }
+  .descr {
+    width: 100%;
+  }
+
+  .aside {
+    display: none;
+  }
+
+  .r-l {
+    margin: 0px;
+    margin-bottom: 20px;
+    height: 500px;
+    flex-wrap: wrap;
+  }
+  .r-l iframe {
+    width: 100%;
+    height: 350px;
+    margin-top: 10px !important;
+  }
+
+  .l-r {
+    margin: 0px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+
+  .icontext p {
+    font-size: 14px;
+    margin: 0px;
+  }
+  .icontext span {
+    margin: 0px;
+    font-size: 11px;
+  }
+  .icontext small {
+    font-size: 9px;
+    margin: 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1440px) {
+  .titles {
+    font-size: 22px;
+    width: 100%;
+  }
+
+  .pdescrip {
+    font-size: 14px;
+  }
+  .descr {
+    width: 100%;
+  }
+
+  .aside {
+    display: none;
+  }
+
+  .r-l {
+    margin: 0px;
+    margin-bottom: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .r-l iframe {
+    height: 500px;
+    width: 600px;
+    margin-top: 20px !important;
+  }
+
+  .l-r {
+    margin: 0px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+
+  .icontext p {
+    font-size: 16px;
+    margin: 0px;
+  }
+  .icontext span {
+    margin: 0px;
+    font-size: 13px;
+  }
+  .icontext small {
+    font-size: 11px;
+    margin: 0px;
+  }
+}
