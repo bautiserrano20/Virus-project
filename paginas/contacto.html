@@ -138,40 +138,77 @@
         </div>
       </div>
     </div>
-    <main class="container">
-      <section class="mapa">
-        <h2 class="contacto-titulo">Nuestra ubicación</h2>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24653.156616867254!2d-65.16187357488036!3d-26.827659860412993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225eb7a25a82a5%3A0xa54a8f9c2b8a9469!2sCostanera%20Norte%2C%20T4000%2C%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1765924129424!5m2!1ses-419!2sar"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        >
-        </iframe>
-      </section>
+    <main class="flex-grow-1 py-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-12 col-lg-6">
+            <h2 class="contacto-titulo mb-3">Nuestra ubicación</h2>
 
-      <section class="formulario">
-        <h2 class="contacto-titulo">Envíanos tu consulta</h2>
-        <form>
-          <label>Nombre</label>
-          <input type="text" placeholder="Tu nombre" required />
+            <div class="ratio ratio-16x9 rounded overflow-hidden">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24653.156616867254!2d-65.16187357488036!3d-26.827659860412993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225eb7a25a82a5%3A0xa54a8f9c2b8a9469!2sCostanera%20Norte%2C%20T4000%2C%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1765924129424!5m2!1ses-419!2sar"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
 
-          <label>Email</label>
-          <input type="email" placeholder="Tu correo electrónico" required />
+          <div class="col-12 col-lg-6">
+            <h2 class="contacto-titulo mb-3">Envíanos tu consulta</h2>
 
-          <label>Asunto</label>
-          <input type="text" placeholder="Motivo de tu consulta" required />
+            <form class="bg-transparent">
+              <div class="mb-3">
+                <label class="form-label">Nombre</label>
+                <input
+                  type="text"
+                  class="form-control rounded-pill"
+                  placeholder="Tu nombre"
+                  required
+                />
+              </div>
 
-          <label>Mensaje</label>
-          <textarea placeholder="Déjanos tu mensaje…" required></textarea>
+              <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control rounded-pill"
+                  placeholder="Tu correo electrónico"
+                  required
+                />
+              </div>
 
-          <button type="submit">Enviar</button>
-        </form>
-      </section>
+              <div class="mb-3">
+                <label class="form-label">Asunto</label>
+                <input
+                  type="text"
+                  class="form-control rounded-pill"
+                  placeholder="Motivo de tu consulta"
+                  required
+                />
+              </div>
+
+              <div class="mb-4">
+                <label class="form-label">Mensaje</label>
+                <textarea
+                  class="form-control rounded-4"
+                  rows="4"
+                  placeholder="Déjanos tu mensaje…"
+                  required
+                ></textarea>
+              </div>
+
+              <button
+                type="submit"
+                class="btn btn-dark w-100 rounded-pill py-2"
+              >
+                Enviar
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
     </main>
+
     <footer class="footer">
       <div class="footer-container">
         <div class="footer-col-logo">
@@ -185,19 +222,23 @@
         <div class="footer-col">
           <h4>Información</h4>
           <ul>
-            <li><a href="#">Términos y condiciones</a></li>
-            <li><a href="#">Política de privacidad</a></li>
-            <li><a href="#">Accesibilidad</a></li>
+            <li><a href="/paginas/error404.html">Términos y condiciones</a></li>
+            <li><a href="/paginas/error404.html">Política de privacidad</a></li>
+            <li><a href="/paginas/error404.html">Accesibilidad</a></li>
           </ul>
         </div>
         <div class="footer-col">
           <h4>Seguinos</h4>
           <ul class="footer-redes">
             <li>
-              <a href="#"><img src="../img/pngegg.png" alt="" /></a>
+              <a href="/paginas/error404.html"
+                ><img src="../img/pngegg.png" alt=""
+              /></a>
             </li>
             <li>
-              <a href="#"><img src="../img/pngegg (2).png" alt="" /></a>
+              <a href="/paginas/error404.html"
+                ><img src="../img/pngegg (2).png" alt=""
+              /></a>
             </li>
           </ul>
         </div>

@@ -12,6 +12,7 @@ body {
 
 main {
   background-color: #4c0015;
+  flex: 1;
 }
 
 .logo-nav img {
