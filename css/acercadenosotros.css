@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-/* Fuentes */
 @font-face {
   font-family: "Pixelout Personal Use Only Reg";
   src: url("./fonts/Pixelout.ttf") format("truetype");
@@ -24,51 +23,97 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  color: #4c0015;
+  background-color: #4c0015;
+  color: #ceb09e;
 }
 
 main {
   flex: 1;
-  background-color: #4c0015;
-  margin: 0 auto;
   width: 100%;
+  margin: 0 auto;
+}
+
+.descripcion {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.descripcion h4 {
+  font-family: "alagard", sans-serif;
+  color: #f3d5c0;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1.9rem;
+}
+
+.descripcion h5 {
+  font-family: "alagard", sans-serif;
+  color: #ceb09e;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+.descripcion p {
+  font-family: "determination", sans-serif;
+  color: #ceb09e;
+  line-height: 1.7;
+  margin-bottom: px;
+}
+
+.descripcion ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.descripcion ul li {
+  font-family: "determination", sans-serif;
+  color: #ceb09e;
+  margin-bottom: 8px;
+  list-style: square;
+}
+
+.tarjeta-perfil {
+  padding: 15px;
 }
 
 .card {
+  height: 100%;
   border: none;
-  cursor: auto;
-  transition: transform 0.3s ease-in-out;
+  border-radius: 14px;
+  background-color: #17080a;
+  cursor: default;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s;
 }
 
 .card:hover {
   transform: scale(1.03);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
   z-index: 10;
 }
 
-.card .card-body {
+.card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+.card-body {
   background-color: #17080a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
 }
 
 .card h5 {
   font-family: "alagard", sans-serif;
-  color: aliceblue;
+  color: #f3d5c0;
+  margin-bottom: 10px;
 }
 
 .card p {
   font-family: "determination", sans-serif;
-  color: aliceblue;
-}
-
-.tarjeta-perfil {
-  margin: 0;
-  padding: 0;
-}
-
-footer {
-  background-color: #17080a;
-}
-
-footer .container {
-  width: 100%;
-  height: auto;
-}
+  color: #ceb09e;
+  font-size: 0.95rem
