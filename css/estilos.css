@@ -16,7 +16,7 @@ main {
 }
 
 .logo-nav img {
-  width: 100px;
+  width: 80px;
 }
 
 .bg-nav {
@@ -95,6 +95,11 @@ main {
   .nav-link {
     padding-left: 20px;
   }
+}
+
+.fade {
+  color: #595c5f;
+  font-family: Determination;
 }
 
 .suscripcion {
@@ -237,4 +242,10 @@ main {
 
 .imgsgeneral:hover {
   transform: scale(0.9);
+}
+
+.subfooter {
+  background-color: #1e0f11;
+  color: #f1ded092;
+  font-family: Alagard;
 }
