@@ -61,6 +61,11 @@ main {
   line-height: 1.7;
   margin-bottom: px;
 }
+.descripcion {
+  background-color: #17080A;
+  padding: 30px;
+  border-radius: 5px;
+}
 
 .descripcion ul {
   margin-top: 10px;
