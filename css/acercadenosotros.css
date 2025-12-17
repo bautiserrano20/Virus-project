@@ -62,7 +62,7 @@ main {
   margin-bottom: px;
 }
 .descripcion {
-  background-color: #17080A;
+  background-color: #17080a;
   padding: 30px;
   border-radius: 5px;
 }
@@ -121,4 +121,5 @@ main {
 .card p {
   font-family: "determination", sans-serif;
   color: #ceb09e;
-  font-size: 0.95rem
+  font-size: 0.95rem;
+}
